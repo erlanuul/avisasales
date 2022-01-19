@@ -1,0 +1,105 @@
+* {
+	box-sizing: border-box;
+}
+.all-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.align-flex-start {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+}
+.default-text-style {
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 12px;
+}
+.App {
+	background: #e5e5e5;
+}
+.app-wrapper {
+	flex-direction: column;
+	width: 960px;
+	background: #f3f7fa;
+}
+.header img {
+	margin: 50px 0;
+}
+.sideBar {
+	flex-direction: column;
+	width: 232px;
+	height: 252px;
+	margin-right: 10px;
+	background: white;
+	border: 1px solid #dfe5ec;
+	box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+	border-radius: 5px;
+	color: #4a4a4a;
+}
+.sideBar p {
+	width: 192px;
+	margin: 20px 20px 0px 20px;
+}
+.checkItems {
+	width: 142px;
+	height: 20px;
+	margin: 20px 0px 0px 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+}
+.checkItems span {
+	margin-left: 10px;
+}
+.ticketOutBar {
+	flex-direction: column;
+	width: 502px;
+	margin-left: 10px;
+	margin-bottom: 50px;
+}
+.filterBar {
+	width: 502px;
+	height: 50px;
+	margin-bottom: 20px;
+	background: white;
+	border: 1px solid #dfe5ec;
+	border-radius: 5px;
+	text-align: center;
+}
+.filterButton {
+	width: 168px;
+	height: 50px;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+	color: #4a4a4a;
+	text-align: center;
+}
+.ticketBar {
+	width: 100%;
+	flex-direction: column;
+}
+
+.filterLeftButton {
+	border-right: 1px solid #dfe5ec;
+}
+.filterRightButton {
+	border-left: 1px solid #dfe5ec;
+}
+
+.showMoreButton {
+	width: 502px;
+	height: 50px;
+	margin-top: 10px;
+	background: #2196f3;
+	border-radius: 5px;
+	text-align: center;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+	cursor: pointer;
+	color: #ffffff;
+}
